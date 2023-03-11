@@ -419,3 +419,1044 @@ git branch
 git fetch -a
 clear
 ls
+cleat
+clear
+set -o vi
+ls
+vi
+clear
+ls
+vi README.md
+clear
+ls
+wc -l README.md
+vi README.md
+wc -l README.md
+clear
+git pull
+git remote add origin http://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@github.com/e-gerald/alx-system_engineering-devops.git
+ls
+git remote remove origin
+git remote add origin http://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@github.com/e-gerald/alx-system_engineering-devops.git
+git remote -v
+git remote remove update_script
+git remote -v
+git set --global user.name "Gerald"
+git pull
+git branch -M main
+git  status
+git pull -u origin main
+git pull
+git init
+git add README.md
+git status
+git commit -m "First Commit Shell Basics"
+git push -u origin main
+clear
+git status
+git add README.md
+git commit -m "My first commit to shell basics"
+git push -u origin main
+ls
+ls -a
+clear
+git rm 0x03-git
+git rm -r 0x03-git
+ls
+git status
+git restore -r 0x03-git
+git restore -S 0x03-git
+git ls
+ls
+git status
+git restore 0x03-git
+git status
+ls
+git pull
+ls
+cd ..
+ls
+cd -
+ls
+pwd
+git fetch
+ls
+git remote set-url origin http://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@github.com/e-gerald/alx-system_engineering-devops.git
+git add .
+ls
+git pull
+ls
+clear
+ls
+mkdir alx-system_engineering-devops
+ls
+cd alx-system_engineering-devops
+ls
+git remote -v
+git pull 
+ls
+git ls
+git status
+git rm -r 0x03-git
+ls
+touch README.md
+vi README.md
+git pull -u origin
+git pull -u main
+git pull origin main
+git fetch --all
+git pull --all
+mkdir 0x00-shell_basics
+ls
+git add *
+git commit -m "Innitial commit"
+clear
+git status
+ls
+git add .
+git status
+git commit -m "Initial commit"
+git push 
+cd ..
+git remote -v
+git remote remove 
+git remote remove origin
+git remote -v
+ls
+cd alx-system_engineering-devops
+ls
+git remote -v
+git remote add origin http://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@github.com/e-gerald/alx-system_engineering-devops.git
+ls
+git init
+git status
+git rm .*
+ls
+git add *
+git status
+git commit -m "Shell Basics Readme"
+git push
+git remote add origin http://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@github.com/e-gerald/alx-system_engineering-devops.git
+git remote -v
+git status
+git branch -M main
+git push 
+git push --set-upstream origin main
+ls
+git add .
+git status
+cd 0x00-shell_basics
+ls
+clear
+touch 0-current_working_directory
+ls
+vi 0-current_working_directory
+ls -l
+chmod u+x 0-current_working_directory
+ls -l
+clear
+ls -l
+git add .
+git status
+cd ..
+git add .
+git status
+cd 0x00-shell_basics
+ls
+touch README.md
+vi README.md
+cd ..
+git add .
+git status
+git commit -m "PWD Commit"
+git push
+ls
+cd 0x00-shell_basics
+ls
+vi 0-current_working_directory
+vi README.md
+cd ..
+git add .
+git status
+git commit -m "Quick fix"
+git push
+vi 0x00-shell_basics/0-current_working_directory
+git add .
+git commit -m "pwd Fix"
+git push
+cd 0x00-shell_basics
+ls
+vi README.md
+touch 1-listit
+clear
+ls
+vi 1-listit
+chmod u+x 1-listit
+vi 1-listit
+ls
+git add .
+git status
+git commit -m "2" 
+git push
+clear
+touch 2-bring_me_home
+chmod u+x 2-bring_me_home
+vi 2-bring_me_home
+ls
+git add .
+git commit -m "3"
+git push
+ls
+vi readme.md
+ls
+vi README.md
+vi 2-bring_me_home
+git add .
+git status
+git commit -m "3"
+git push
+clear
+touch 3-listfiles
+chmod u+x 3-listfiles
+vi 3-listfiles
+git add .
+vi README.md
+git add .
+git status
+git commit -m "3"
+git push
+clear
+touch 4-listmorefiles
+chmod u+x 4-listmorefiles
+vi 4-listmorefiles
+ls
+git add .
+git commit -m "4"
+git push
+vi 4-listmorefiles
+git add .
+git commit -m "4"
+git push
+vi README.md
+wc 3-listfiles
+ls -w
+ls --help
+clear
+ls
+ls --lis
+ls --list
+ls -A
+ls -d -l 4-listmorefiles
+ls -l 4-listmorefiles
+ls -a
+ls -a 4-listmorefiles
+ls -l 0a
+ls -l -a
+vi README.md
+git add .
+git commit -m "5"
+git push
+ls
+clear
+touch 5-listfilesdigitonly
+chmod u+x 5-listfilesdigitonly
+vi 5-listfilesdigitonly
+git add .
+git commit -m "5"
+git push
+clear
+touch 6-firstdirectory
+chmod u+x 6-firstdirectory
+vi 6-firstdirectory
+git add .
+git commit -m "6"
+git push
+ls
+vi 6-firstdirectory
+git add -m "6"
+git add .
+git commit -m "6"
+git push
+clear
+ls
+vi 6-firstdirectory
+git add .
+git commit -m "6"
+git push
+vi 6-firstdirectory
+git add .
+git commit -m "6"
+git push
+vi README.md
+git add .
+git commit -m "6"
+git push
+clear
+touch 7-movethatfile
+chmod u+x 7-movethatfile
+vi 7-movethatfile
+git add .
+git commit -m "7"
+git push
+vi README.md
+clear
+touch 8-firstdelete
+chmod u+x 8-firstdelete
+vi 8-firstdelete
+clear
+touch 9-firstdirdeletion
+chmod u+x 9-firstdirdeletion
+ls
+vi 9-firstdirdeletion
+clear
+touch 10-back
+chmod u+x 10-back
+vi 10-back
+vi README.md
+git remote -v
+git add .
+git status
+git commit -m "8,9,10"
+git push
+clear
+ls
+touch 11-lists
+chmod u+x 11-lists
+vi 11-lists
+ls -a /boot
+clear
+ls
+ls -a
+ls -a /tmp
+ls -a ~/ /tmp
+ls -a ./ /tmp
+clear
+vi 11-lists
+clear
+ls -a ./ ../ /boot
+vi 11-lists
+git add .
+git commit -m "11"
+git push
+vi 11-lists
+clear
+ls -a -l ../ ./ /boot
+clear
+ls
+vi 11-lists
+clear
+git add .
+git commit -m "11"
+git push
+vi 11-lists
+ls al
+ls -al
+ls -a
+ls -al
+vi 11-lists
+git add .
+git commit -m "11"
+git push
+vi 11-lists
+git add .
+git commit -m "11"
+git push
+clear
+ls -al ./ ../ /boot
+clear
+ls -l -a ./ ../ /boot
+clear
+ls --help
+clear
+ls -alt 
+ls -altr
+ls --help
+clear
+ls -alr
+ls -alt
+ls alt ./ ../ /boot
+ls -alt ./ ../ /boot
+ls -al ./ ../ /boot
+ls -la ./ ../ /boot
+ls -lt ./ ../ /boot
+ls -l ./ ../ /boot
+git puclear
+clear
+ls -lr ./ ../ /boot
+ls -alt ./ ../ /boot
+ls -at
+ls -l
+ls -lat
+ls -alt ./ ../ /boot
+clear
+vi 11-lists
+git add .
+git commit -m "11"
+git push
+ls -alt. 
+ls --
+ls
+ls --help
+ls -alc
+ls -alc ./ ../ /boot
+ls -alC ./ ../ /boot
+ls -alc ./ ../ /boot
+ls --help
+ls -ald ./ ../ /boot
+ls -alg ./ ../ /boot
+ls -alu ./ ../ /boot
+ls -ali ./ ../ /boot
+ls -al -I ./ ../ /boot
+ls -alI ./ ../ /boot
+ls -alR ./ ../ /boot
+ls -alr ./ ../ /boot
+ls --help
+ls -als ./ ../ /boot
+ls -alS ./ ../ /boot
+ls --help
+ls -alx ./ ../ /boot
+ls -alX ./ ../ /boot
+ls --help
+ls -alU ./ ../ /boot
+ls -alu ./ ../ /boot
+ls -alU ./ ../ /boot
+ls -alv ./ ../ /boot
+ls -alw ./ ../ /boot
+ls -aly ./ ../ /boot
+ls -alz ./ ../ /boot
+ls --help
+ls -alc ./ ../ /boot
+ls --help
+ls -alU ./ ../ /boot
+ls -ALU ./ ../ /boot
+ls -A
+ls -Al
+ls -AlU
+ls -AlU ./ ../ /boot
+vi 11-lists
+git add .
+git commit -m "11"
+git push
+ls -alR ./ ../ /boot
+clear
+ls -alr ./ ../ /boot
+ls -alx ./ ../ /boot
+ls -al
+ls -al -x ./ ../ /boot
+ls -x ./ ../ /boot
+ls -lsh ./ ../ /boot
+ls -ls ./ ../ /boot
+ls -lh ./ ../ /boot
+ls -lS ./ ../ /boot
+ls -al -t ./ ../ /boot
+ls -al -t /./ ../ /boot
+ls -al -t ./ ../ /boot
+vi 11-lists
+git add .
+git commit -m "11"
+git push
+ls -al -t ./ ../ /boot
+vi 11-lists
+ls -al -t. ./ ../ /boot
+ls -al -t  ./ ../ /boot
+ls -al -t . ./ ../ /boot
+ls -al -t . ../ /boot
+ls -al -t . .. /boot
+ls -al . .. /boot
+vi 11-lists
+git add .
+git commit -m "11"
+git push -u origin
+clear
+uname
+ls file
+file
+ls
+file README.md
+file 11-lists
+touch 12-file_type
+chmod u+x 12-file_type
+vi 12-file_type
+git add .
+git commit -m "12"
+git push
+clear
+ls
+touch 13-symbolic_link
+chmod u+x 13-symbolic_link
+vi 13-symbolic_link
+git add .
+git commit -m "13"
+git push
+touch 14-copy_html
+chmod u+x 14-copy_html
+vi 14-copy_html
+ls
+touch 1.html 2.html fjfjf.html
+ls
+ls .html*
+ls *.html
+rm *.html
+ls
+clear
+vi 14-copy_html
+git add .
+git commit -m "14"
+git push
+touch file.html
+clear
+ls
+cp *.html ..
+ls
+ls ..
+rm ../file.html
+ls ..
+cp *.html ..
+ls ..
+cp --help
+clear
+vi 14-copy_html
+git add .
+git commit -m "14"
+git push
+cp --help
+clear
+vi 14-copy_html
+git add .
+git commit -m "14"
+git push
+vi 14-copy_html
+ls
+mv *.html ..
+ls
+ls ..
+cp ../*.html .
+ls
+ls ..
+cp -u *.html ..
+ls
+ls ..
+ls -l ..
+cp -u *.html ..
+ls -l ..
+cp -u *.html ../
+ls -l ..
+vi 14-copy_html
+git add .
+git commit -m "14"
+git push
+vi 14-copy_html
+cp --help
+clear
+git add .
+git commit -m "14"
+git push
+vi 14-copy_html
+git add .
+git commit -m "14"
+git push
+vi 14-copy_html
+git add .
+git commit -m "14"
+git push
+clear
+mv --help
+clear
+touch 100-lets_move
+chmod u+x 100-lets_move
+vi 100-lets_move
+git add .
+git commit -m "15"
+git push
+clear
+touch 101-clean_emacs
+chmod u+x 101-clean_emacs
+vi 101-clean_emacs
+ls
+ls *e
+vi README.md
+ls
+ls -l
+vi 101-clean_emacs
+vi README.md
+git add .
+git status
+git commit -m "16, README"
+git push
+clea
+clear
+ls
+mkdir /go/ /go/up/ /go/up/down/
+mkdir go go/up go/up/down
+ls
+rm go
+rmdir go
+ls go
+ls go/up
+rm -r go
+ls
+rm file.html ../file.html
+ls
+ls ..
+git rm file.html
+touch 102-tree
+chmod u+x 102-tree
+vi 102-tree
+git add .
+git status
+git commit -m "17"
+git push
+vi 102-tree
+git add .
+git commit -m "17"
+git push
+ls
+vi 102-tree
+git add .
+git commit -m "17"
+git push
+vi 102-tree
+git add .
+git commit -m "17"
+git push
+vi 102-tree
+git add .
+git commit -m "17"
+git push
+ls --help
+ls -m
+ls -l
+mkdir file
+ls -l
+ls -m 
+ls -l -m
+ls -am
+ls -la
+ls -lam
+ls --help
+ls -n
+ls -om
+ls -oN
+ls -om
+ls -n
+ls -N
+ls -Nm
+ls -ao
+ls -an
+ls -aN
+ls -am
+ls --help
+ls -lapm
+ls -amp
+ls -mp
+ls -p
+ls -ap
+ls -apm
+ls ap
+ls -ap
+ls -amp
+rm -r file
+ls -amp
+clear
+touch 103-commas
+chmod u+x 103-commas
+vi 103-commas
+ls --help
+vi 103-commas
+ls -amp1
+ls -1amp
+ls amp
+ls -amp
+ls -amp -1
+ls --help
+ls -ampb
+ls -ampq
+ls --help
+vi 103-commas
+ls
+git status
+git add .
+git commit -m "18"
+git push
+clear
+vim school
+ls
+vim school.mgc
+git add .
+git commit -m "18"
+git push
+ls
+vi school.mgc
+git add .
+git commit -m "18"
+git push
+vi school.mgc
+git add .
+git commit -m "18"
+git push
+vi school.mgc
+git add .
+git commit -m "18"
+git push
+vi school.mgc
+git add .
+git commit -m "18"
+git push
+vi school.mgc
+chmod u+x school.mgc
+ls 
+git add .
+git commit -m "18"
+git push
+vi school.mgc
+ls -l
+git add .
+git commit -m "18"
+git push
+vi school.mgc
+git add .
+git commit -m "19"
+git push
+file -C -m school.mgc school
+ls
+git add .
+git commit -m "19"
+git push
+clear
+ls
+cd alx-system_engineering-devops
+ls
+mkdir 0x01-shell_permissions
+ls
+cd 0x01-shell_permissions
+ls
+vi README.md
+ls
+cd ..
+clear
+ls
+git add .
+git commit -m "Readme Commit"
+git push
+cd -
+ls
+vi 0-iam_betty
+ls
+git add .
+git commit -m "0"
+git push
+whoami
+id
+whoami
+clear
+vi 1-who_am_i
+git add .
+git commit -m "1"
+git push
+chown
+chown --help
+chown 1-who_am_i
+whoami 1-who_am_i
+id -u
+is
+id
+uid
+id u
+id -help
+id --help
+vi 1-who_am_i
+id -u
+git add .
+git commit -m "1"
+git push
+ls -l
+ls ~
+whoami
+whoami --help
+id -un
+ls
+vi 1-who_am_i
+git add .
+git commit -m "1"
+git push
+whoami
+whoami --help
+vi 1-who_am_i
+git add .
+git commit -m "1"
+git push
+vi README.md
+vi gitpush
+ls
+chmod u+x 0-iam_betty
+chmod u+x gitpush
+mv gitpush ~/.local/bin
+ls
+chmod u+x 1-who_am_i
+ls
+git add .
+git status
+git restore --staged .
+git status
+./gitpush
+:./gitpush
+ls /local/bin
+ls ~/.local/bin
+cd .local/bin
+ls .local/bin
+ls ~/.local/bin/.local/bin
+ls ~/.local/bin/
+ls ~/.local/bin
+cat ~/.local/bin
+mv ~/.local/bin gitpush
+ls ~/.local/bin
+ls ~
+ls ~/.local/bin/
+ls ~/.gitpush
+ls ~/
+ls ~/gitpush
+ls ~
+ls /
+cd bin
+ls
+cd /
+ls
+cd tmp
+cd ..
+cd bin
+ls
+pwd
+ls
+cd ..
+ls
+cd ~
+ls
+cd vagrant
+ls
+pwd
+ls ~
+ls
+ls /local/bin
+ls /
+ls /bin
+ls
+cd alx-system_engineering-devops
+ls
+cd 0x01-shell_permissions
+ls
+ls gitpush
+cat gitpush
+mv gitpush /bin
+mv gitpush /bin/
+mv gitpush /
+mv gitpush ~/
+ls
+ls ~/
+/.gitpush
+cd ~
+ls
+file -C gitpush
+ls
+cd -
+ls
+/.gitpush
+/gitpush
+gitpush
+gitpush ~
+~.gitpush
+git add .
+git status
+git commit -m "1"
+git push
+clear
+id --help
+id -g
+id -G
+clear
+ls
+vi 2-groups
+git add .
+git commit -m "2"
+git push
+ls
+chmod u+x 2-groups
+git add .
+git commit -m "2"
+git push
+id --help
+whoami --help
+id --help
+id -ugG
+id -G
+id -g
+id -u
+ls
+cat 2-groups
+id -g
+vi 2-groups
+git add .
+git commit -m "2"
+git push
+id -Gn
+vi 2-groups
+git add .
+git commit -m "2"
+git push
+clear
+vi 3-new_owner
+chmod u+x 3-new_owner
+ls
+git add .
+git commit -m "3"
+git push
+vi hello
+vi 4-empty
+chmod u+x 4-empty
+git add .
+git commit -m "4"
+git push
+vi 5-execute
+chmod u+x 5-execute
+git add .
+git commit -m "5"
+git push
+ls
+ls /bin
+ls ~
+mv ~/gitpush .
+ls
+mv gitpush /bin
+ls /bin
+ls
+sudo mv gitpush /bin
+ls /bin
+ls
+clear
+ls
+vi README.md
+./gitpush "My fast commit"
+sudo ./gitpush "My fast commit"
+sudo ./bin/gitpush "My fast commit"
+sudo /bin/gitpush
+clear
+git status
+sudo mn /bin/gitpush .
+sudo mv /bin/gitpush .
+ls
+ls ~
+ls /
+ls ~/
+ls /
+ls /bin
+ls ~
+ls
+mv gitpush ~/
+ls ~
+~clear
+clear
+ls
+~/gitpush
+~/gitpush "My fast commit"
+vi 6-multiple_permissions
+chmod u+x 6-multiple_permissions
+~/gitpush
+~/gitpush "6"
+vi 6-multiple_permissions
+ls
+vi 6-multiple_permissions
+~/gitpush "6"
+ls
+cp 6-multiple_permissions
+cp 6-multiple_permissions .
+cat 6-multiple_permissions
+vi 7-everybody
+chmod u+x 7-everybody
+ls
+~/gitpush "7"
+vi 7-everybody
+~/gitpush "7"
+vi 7-everybody
+~/gitpush "7"
+vi 8-James_Bond
+chmod u+x 8-James_Bond
+~/gitpush "8"
+vi 9-John_Doe
+chmod u+x 9-John_Doe
+~/gitpush "9"
+clear
+vi 10-mirror_permissions
+chmod u+x 10-mirror_permissions
+~/gitpush
+~/gitpush "10"
+vi 11-directories_permissions
+chmod u+x 11-directories_permissions
+~/gitpush "11"
+chmod -R --help
+chmod --help
+unmask --help
+umask --help
+ls
+vi 11-directories_permissions
+~/gitpush "11"
+vi 11-directories_permissions
+~/gitpush "11"
+~/gitpush
+~/gitpush "11"
+vi 11-directories_permissions
+~/gitpush "11"
+chmod --help
+vi 11-directories_permissions
+~/gitpush "11"
+vi 11-directories_permissions
+~/gitpush "11"
+vi 11-directories_permissions
+~/gitpush "11"
+vi 11-directories_permissions
+~/gitpush "11"
+vi 11-directories_permissions
+~/gitpush "11"
+vi 11-directories_permissions
+~/gitpush "11"
+vi 12-directory_permissions
+chmod 751 /test/
+vi 12-directory_permissions
+chmod u+x 12-directory_permissions
+~/gitpush "12"
+mkdir -m --help
+mkdir --help
+vi 12-directory_permissions
+~/gitpush "12"
+vi 13-change_group
+chmod u+x 13-change_group
+~/gitpush "13"
+vi README.md
+cat 6-multiple_permissions
+vi README.md
+clear
+vi 100-change_owner_and_group
+chmod u+x 100-change_owner_and_group
+~/gitpush "14"
+vi 101-symbolic_link_permissions
+chmod u+x 101-symbolic_link_permissions
+~/gitpush "15"
+vi README.md
+cat 100-change_owner_and_group
+vi README.md
+chown --help
+clear
+vi 102-if_only
+chmod u+x 102-if_only
+~/gitpush "16"
+vi README.md
+vi 103-Star_Wars
+ls
+chmod u+x 103-Star_Wars
+ls
+~/gitpush "17"
+vi README.md
+~/gitpush "Read me commit"
+clear
+la
+ls -l
+pwd
+exit
