@@ -8,4 +8,5 @@ int main(void)
 	char shout[] = "Programming is like building a multilingual puzzle";
 
 	puts(shout);
+	return (0);
 }
