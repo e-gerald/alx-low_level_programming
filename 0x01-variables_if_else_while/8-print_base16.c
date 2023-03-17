@@ -10,7 +10,7 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i <= 23; i++)
+	for (i = 0; i <= 22; i++)
 	{
 		if (i <= 9 || i >= 17)
 			putchar(tolower(i + '0'));
