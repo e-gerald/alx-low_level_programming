@@ -9,23 +9,22 @@ int main(void)
 {
 	int i, m;
 
-	for (i = '0'; i <= '9'; i++)
+	for (i = 0; i < 10; i++)
 	{
-	for (m = '0'; m <= '9'; m++)
+	for (m = 0; m < 10 ; m++)
 	{
-		if (m == '2' && i == '0')
+		if (i < m && i != m)
 		{
-			i = ' ';
-			m = ' ';
-			break;
+			putchar(i + '0');
+			putchar(m + '0');
+			if (i + m != 17)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
-		putchar(i);
-		putchar(m);
-		putchar(',');
-		putchar(' ');
-
 	}
-}	
 	putchar('\n');
 	return (0);
+	}
 }
