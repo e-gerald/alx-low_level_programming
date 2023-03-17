@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int i;
+	int di;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
@@ -16,7 +16,7 @@ int main(void)
 			i == ' ';
 		else
 			putchar(i);
-	}
+		}
 	putchar('\n');
 	return (0);
 }
