@@ -10,14 +10,10 @@ int main(void)
 {
 	int i;
 
-	for (i = '0'; i <= 'F'; i++)
+	for (i = 0; i <= 23; i++)
 	{
-		if (i > '9' && i < 'A')
-		{
-			i == ' ';
-		}
-		else
-			putchar(tolower(i));
+		if (i <= 9 || i >= 17)
+			putchar(tolower(i + '0'));
 	}
 	putchar('\n');
 	return  (0);
