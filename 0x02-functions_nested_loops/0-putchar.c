@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Check the code
+ * main - Call static library main.h
  * Return: Always 0
  */
 
