@@ -6,12 +6,15 @@ int sumofnumbers(int a, int b)
 	sum = i + j;
 	return (sum)
 }
+/**
+ * hfhfhfhfhfhfffhf
+ */
 
 int main ()
 {
 	int a = 4;
 	int b = 6;	
 	sumofnumbers(a, b);
-	printf("%d", sum)
+	printf("%d", sum) //This outputs sum
 	return 0;
 }
