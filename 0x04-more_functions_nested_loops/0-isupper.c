@@ -2,6 +2,7 @@
 
 /**
  * _isupper - Checks for uppercase
+ * @c: Argument
  * Return: Always 0
  */
 
