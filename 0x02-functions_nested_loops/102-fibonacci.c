@@ -10,7 +10,6 @@ int main(void)
 	long int i = 0, j = 1, k = 0, n;
 
 	k = i + j;
-	printf("%ld, ", k);
 	for (n = 0; n < 49; n++)
 	{
 		printf("%ld, ", k);
