@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	long int i = 0, j = 1, k = 0, n;
+	long int i = 0, j = 1, k = 0, n, sum = 0;
 
 	k = i + j;
 	for (n = 0; n < 50; n++)
@@ -15,11 +15,11 @@ int main(void)
 		i = j;
 		j = k;
 		k = i + j;
-		if (k < 3524578 && k % 2 == 0)
+		if (k < 4000000 && k % 2 == 0)
 		{
-			printf("%ld, ", k);
+			sum += k;
 		}
 	}
-	printf("3524578\n");
+	printf("%ld\n", sum);
 	return (0);
 }
