@@ -13,15 +13,11 @@ int main(void)
 	{
 		if (num % i == 0 && i > 1)
 		{
-			printf("%ld", i);
-			if (i != 50829599)
-			{
-				printf(" ");
-			}
 			num /= i;
+			if (i > 5000)
+				printf("%ld\n", i);
 			i = 1;
 		}
 	}
-	printf("\n");
 	return (0);
 }
