@@ -18,7 +18,7 @@ int main(void)
 		{
 			printf("%.0f", fib);
 			if (fib != 218922995834555203584.0)
-				printf(" ");
+				printf(", ");
 		}
 	}
 	printf("\n");
