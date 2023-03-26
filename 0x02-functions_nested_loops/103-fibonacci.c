@@ -9,7 +9,6 @@ int main(void)
 {
 	long int i = 0, j = 1, k = 0, n, sum = 0;
 
-	k = i + j;
 	for (n = 0; n < 50; n++)
 	{
 		i = j;
