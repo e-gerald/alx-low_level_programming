@@ -16,10 +16,11 @@ int main(void)
 		fib = j + k;
 		if (i > 0)
 		{
-			printf("%.0lf", fib);
+			printf("%.0f", fib);
 			if (fib != 218922995834555203584.0)
 				printf(" ");
 		}
 	}
 	printf("\n");
+	return (0);
 }
