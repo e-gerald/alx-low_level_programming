@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	double i, j = 0, k = 1, fib = 0;
+	long double i, j = 0, k = 1, fib = 0;
 
 	for (i = 0; i <= 98; i++)
 	{
@@ -16,8 +16,8 @@ int main(void)
 		fib = j + k;
 		if (i > 0)
 		{
-			printf("%.0f", fib);
-			if (fib != 218922995834555203584.0)
+			printf("%.0Lf", fib);
+			if (fib < 218922995834555169026.0)
 				printf(", ");
 		}
 	}
