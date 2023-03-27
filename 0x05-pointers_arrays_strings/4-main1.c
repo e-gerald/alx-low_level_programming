@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void print_rev(char *);
+
+/**
+ *  * main - check the code for Holberton School students.
+ *   *
+ *    * Return: Always 0.
+ *     */
+
+void print_rev(char *s);
+
+int main(void)
+{
+		char *str;
+
+			str = "Holberton!";
+				print_rev(str);
+					return (0);
+}
