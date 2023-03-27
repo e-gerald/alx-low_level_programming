@@ -2,6 +2,7 @@
 
 /**
  * main - Reset the pointer value to 98
+ * @n: Argument
  * Return: Always 0
  */
 
