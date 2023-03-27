@@ -11,7 +11,7 @@ void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; (unsigned)i < strlen(str); i += 2)
+	for (i = 0; (unsigned int)i < strlen(str); i += 2)
 		printf("%c", str[i]);
 	printf("\n");
 }
