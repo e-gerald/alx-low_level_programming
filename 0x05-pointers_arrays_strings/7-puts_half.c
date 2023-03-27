@@ -18,8 +18,10 @@ void puts_half(char *str)
 		{
 			printf("%c", str[n + i]);
 		}
-		else
+		else if (n % 2 == 0)
 			printf("%c", str[n + i + 1]);
+		else
+			printf("%c", str[i]);
 	}
 	printf("\n");
 }
