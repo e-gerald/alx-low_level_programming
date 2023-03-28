@@ -4,7 +4,7 @@
 /**
  * *_strcpy - Copy string from src to dest
  * @dest: String 1
- * @char: String 2
+ * @src: String 2
  * Return: Char string
  */
 
