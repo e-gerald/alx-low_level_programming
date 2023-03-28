@@ -9,7 +9,6 @@
 
 int main(void)
 {
-	srand(time(NULL));
-	rand();
+	printf("%d\n", rand());
 	return (0);
 }
