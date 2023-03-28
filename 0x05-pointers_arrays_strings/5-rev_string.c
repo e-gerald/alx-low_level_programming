@@ -11,7 +11,7 @@ void rev_string(char *s)
 {
 	char temp;
 	char *ps = s;
-	char n = strlen(s) - 1;
+	size_t n = strlen(s) - 1;
 	char *pl = s + n;
 
 	while (ps < pl)
