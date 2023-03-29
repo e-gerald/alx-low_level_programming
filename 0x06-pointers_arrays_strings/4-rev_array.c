@@ -12,7 +12,7 @@ void reverse_array(int *a, int n)
 {
 	int temp = 0;
 	int *pi = a;
-	int *pl = a + (n - 1);
+	int *pl = a + n;
 
 	while (pi < pl)
 	{
