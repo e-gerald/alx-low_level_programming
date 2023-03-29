@@ -3,7 +3,7 @@
 
 /**
  * *string_toupper - Change lowercase letter to uppercase
- * @*: Argument
+ * @s: Argument
  * Return: Nothing
  */
 
