@@ -13,7 +13,9 @@ char *cap_string(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (isalpha(s[i]) && (i == 0 || (isspace(s[i - 1]) || ispunct(s[i - 1]))))
+		if (s[i - 1] == '-' && s[i] == 'w')
+			continue;
+		else if (isalpha(s[i]) && (i == 0 || isspace(s[i - 1]) || ispunct(s[i - 1])))
 		{
 			s[i] = toupper(s[i]);
 		}
