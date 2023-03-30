@@ -1,10 +1,9 @@
 #include <ctype.h>
-#include "main.h"
 
 /**
  * *cap_string - Capitalize first words of string
- * @*: Argument
- * Return: Always 0
+ * @s: Argument pointer to char
+ * Return: Pointer to s variable
  */
 
 char *cap_string(char *s)
@@ -13,11 +12,10 @@ char *cap_string(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (isalpha(*s + i) && (isspace(*s + i - 1) || ispunct(*s + i - 1)))
+		if (isalpha(s[i]) && (i == 0 || (isspace(s[i - 1]) || ispunct(s[i - 1]))))
 		{
-			*s = toupper(*s);
+			*s = toupper(s[i]);
 		}
 	}
 	return (s);
 }
-
