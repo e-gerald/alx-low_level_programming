@@ -14,7 +14,7 @@ char *cap_string(char *s)
 	{
 		if (isalpha(s[i]) && (i == 0 || (isspace(s[i - 1]) || ispunct(s[i - 1]))))
 		{
-			*s = toupper(s[i]);
+			s[i] = toupper(s[i]);
 		}
 	}
 	return (s);
