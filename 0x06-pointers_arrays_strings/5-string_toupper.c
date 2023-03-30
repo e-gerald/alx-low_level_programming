@@ -10,6 +10,7 @@
 char *string_toupper(char *s)
 {
 	char *ps = s;
+
 	while (*s != '\0')
 	{
 		*s = toupper(*s);
