@@ -5,6 +5,7 @@
  * @s: String argument
  * @b: Character for filling the string
  * @n: Size of the char b[0]
+ * Return: Return pointer to s
  */
 
 char *_memset(char *s, char b, unsigned int n)
