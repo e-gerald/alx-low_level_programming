@@ -16,7 +16,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		for (j = 0; accept[j] != '\0'; j++)
 		{
-			if (s[i] == accept[j])
+			if (s[i] == accept[j] && s[i] != '\0' && accept[j - 1] != '\0')
 			{
 				sum += sizeof(s[i]);
 			}
