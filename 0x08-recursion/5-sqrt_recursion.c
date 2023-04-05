@@ -3,6 +3,7 @@
 /**
  * _sqrt_recursion - Get natural square root of numbers
  * @n: Number argument
+ * @i: Iterator
  * Return: Square root
  */
 
