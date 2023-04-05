@@ -2,9 +2,10 @@
 
 /**
  * _puts_recursion - Prints string recursively
- * @s: Argument
+ * @c: Putchar argument
  * Return: Return string
  */
+
 int _putchar(char c);
 
 void _puts_recursion(char *s)
