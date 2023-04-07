@@ -43,12 +43,12 @@ int is_palindrome(char *s)
 	str1(s);
 	str2(s);
 
-	if (*(str1(*(s))) != (*(str2(*(s)))))
+	if (*s != '\0')
 	{
 		return (0);
 	}
 	else
 		return (1);
-	return(is_palindrome(s + 1));
+	return (is_palindrome(s + 1));
 }
 
