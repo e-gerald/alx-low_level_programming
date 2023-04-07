@@ -43,7 +43,7 @@ int is_palindrome(char *s)
 	str1(s);
 	str2(s);
 
-	if (*s != '\0')
+	if (*(str1(s)) != *(str2(s)))
 	{
 		return (0);
 	}
