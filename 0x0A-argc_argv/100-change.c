@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
 	else if (cent <= 0)
 	{
 		printf("0\n");
+		return (0);
 	}
 	for (i = 0; i < 5; i++)
 	{
