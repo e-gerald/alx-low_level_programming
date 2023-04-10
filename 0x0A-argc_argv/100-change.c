@@ -11,25 +11,25 @@
 
 int main(int argc, char *argv[])
 {
-	int i, cent, count = 0;
+	int i, cents, count = 0;
 	int coins[] = {25, 10, 5, 2, 1};
 
-	cent = atoi(argv[1]);
+	cents = atoi(argv[1]);
 	if (argc != 2)
 	{
 		printf("Error\n");
-		return (0);
+		return (1);
 	}
-	else if (cent <= 0)
+	else if (cents <= 0)
 	{
 		printf("0\n");
-		return (1);
+		return (0);
 	}
 	for (i = 0; i < 5; i++)
 	{
-		while (cent >= coins[i])
+		while (cents >= coins[i])
 		{
-			cent -= coins[i];
+			cents -= coins[i];
 			count++;
 		}
 	}
