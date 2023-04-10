@@ -19,9 +19,9 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
-	for (i = 0; i < argc; i++)
+	for (i = 0; *c[i] != '\0'; i++)
 	{
-		if ((*c[i] < 48) && (*c[i] > 57))
+		if ((*c[i] < 48) || (*c[i] > 57))
 		{
 			printf("Error\n");
 			return (1);
