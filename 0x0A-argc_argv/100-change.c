@@ -18,12 +18,12 @@ int main(int argc, char *argv[])
 	if (argc != 2)
 	{
 		printf("Error\n");
-		return (1);
+		return (0);
 	}
 	else if (cent <= 0)
 	{
 		printf("0\n");
-		return (1);
+		return (0);
 	}
 	for (i = 0; i < 5; i++)
 	{
