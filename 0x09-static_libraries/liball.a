@@ -1,0 +1,356 @@
+!<arch>
+0-isupper.c/    0           0     0     644     180       `
+#include "main.h"
+
+/**
+ * _isupper - Checks for uppercase
+ * @c: Argument
+ * Return: Always 0
+ */
+
+int _isupper(int c)
+{
+	if (c > 64 && c < 91)
+		return (1);
+	else
+		return (0);
+}
+0-memset.c/     0           0     0     644     340       `
+#include "main.h"
+
+/**
+ * *_memset - A function that fills memory with a constant byte
+ * @s: String argument
+ * @b: Character for filling the string
+ * @n: Size of the char b[0]
+ * Return: Return pointer to s
+ */
+
+char *_memset(char *s, char b, unsigned int n)
+{
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		s[i] = b;
+	}
+	return (s);
+}
+0-strcat.c/     0           0     0     644     218       `
+#include "main.h"
+#include <string.h>
+
+/**
+ * *_strcat - Concatenates two strings
+ * @dest: Argument 1
+ * @src: Argument 2
+ * Return: Always 0
+ */
+
+char *_strcat(char *dest, char *src)
+{
+	return (strcat(dest, src));
+}
+1-isdigit.c/    0           0     0     644     176       `
+#include "main.h"
+
+/**
+ * _isdigit - Checks for digit
+ * @c: Argument
+ * Return: Always 0
+ */
+
+int _isdigit(int c)
+{
+	if (c > 47 && c < 58)
+		return (1);
+	else
+		return (0);
+}
+1-memcpy.c/     0           0     0     644     327       `
+#include "main.h"
+
+/**
+ * *_memcpy - Copy memory area to another memory area
+ * @dest: Destination argument
+ * @src: Argument to copy
+ * @n: Sizeof array
+ * Return: return new src
+ */
+
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		dest[i] = src[i];
+	}
+	return (dest);
+}
+
+1-strncat.c/    0           0     0     644     250       `
+#include "main.h"
+#include <string.h>
+
+/**
+ * *_strncat - Concatenate two strings to size
+ * @dest: Argument 1
+ * @src: Argument 2
+ * @n: Size
+ * Return: Always 0
+ */
+
+char *_strncat(char *dest, char *src, int n)
+{
+	return (strncat(dest, src, n));
+}
+100-atoi.c/     0           0     0     644     152       `
+#include <stdio.h>
+
+/**
+ * _atoi - Converts characters to integer
+ * @s: Char argument
+ * Return: Ascii Number
+ */
+
+int _atoi(char *s)
+{
+	return (0);
+}
+2-strchr.c/     0           0     0     644     285       `
+#include "main.h"
+
+/**
+ * *_strchr - Locate character in string
+ * @s: String argument
+ * @c: Element to find
+ * Return: Return pointer to s
+ */
+
+char *_strchr(char *s, char c)
+{
+	int i;
+
+	for (i = 0; s[i] >= '\0'; i++)
+	{
+		if (s[i] == c)
+		{
+			return (&s[i]);
+		}
+	}
+	return (0);
+}
+
+2-strlen.c/     0           0     0     644     169       `
+#include <stdio.h>
+#include <string.h>
+
+/**
+ * _strlen - Returns length of string
+ * @s: Argument
+ * Return: Always 0
+ */
+
+int _strlen(char *s)
+{
+	return (strlen(s));
+}
+
+2-strncpy.c/    0           0     0     644     357       `
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * *_strncpy - Copy string
+ * @dest: Destination argument
+ * @src: String copy
+ * @n: Size of array
+ * Return: Always 0
+ */
+
+char *_strncpy(char *dest, char *src, int n)
+{
+	int i = 0;
+
+	while (i < n && src[i] != '\0')
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
+	return (dest);
+}
+
+3-islower.c/    0           0     0     644     213       `
+#include "main.h"
+
+/**
+ * _islower - Checks for lowercase characters
+ * @c: Takes argument for lower case
+ * Return: Always 0
+ */
+
+int _islower(int c)
+{
+	if (c < 123 && c > 96)
+		return (1);
+	else
+		return (0);
+}
+
+3-puts.c/       0           0     0     644     166       `
+#include <stdio.h>
+
+/**
+ * _puts - Prints string to standard output
+ * @str: String argument
+ * Return: Always 0
+ */
+
+void _puts(char *str)
+{
+	printf("%s\n", str);
+}
+3-strcmp.c/     0           0     0     644     200       `
+#include "main.h"
+#include <string.h>
+
+/**
+ * _strcmp - Compare two stings
+ * @s1: Argument 1
+ * @s2: Argument 2
+ * Return: Always 0
+ */
+
+int _strcmp(char *s1, char *s2)
+{
+	return (strcmp(s1, s2));
+}
+3-strspn.c/     0           0     0     644     434       `
+#include "main.h"
+
+/**
+ * _strspn - Get the length of a prefix substring
+ * @s: Main string argument
+ * @accept: substring argument
+ * Return: Size of substring
+ */
+
+unsigned int _strspn(char *s, char *accept)
+{
+	unsigned int sum = 0;
+	int i, j;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		for (j = 0; accept[j] != '\0'; j++)
+		{
+			if (s[i] == accept[j] && accept[j - 1] != '\0')
+			{
+				sum += sizeof(s[i]);
+			}
+		}
+	}
+	return (sum);
+}
+4-isalpha.c/    0           0     0     644     234       `
+#include "main.h"
+
+/**
+ * _isalpha - Checks for upper case character
+ * @c: Call argument for char
+ * Return: Always 0
+ */
+
+int _isalpha(int c)
+{
+	if ((c <= 90 && c >= 65) || (c <= 122 && c >= 97))
+		return (1);
+	else
+		return (0);
+}
+4-strpbrk.c/    0           0     0     644     206       `
+#include <stdio.h>
+
+/**
+ * _strpbrk - Search a string for set of byte
+ * @s: Char argument
+ * @accept: Char argument 2
+ * Return: Number of bytes
+ */
+
+char *_strpbrk(char *s, char *accept)
+{
+	return (0);
+}
+5-strstr.c/     0           0     0     644     199       `
+#include <stdio.h>
+
+/**
+ * _strstr - Locate a substring
+ * @haystack: Char Argument
+ * @needle: Char argument 2
+ * Return: Substring
+ */
+
+char *_strstr(char *haystack, char *needle)
+{
+	return (0);
+}
+
+6-abs.c/        0           0     0     644     154       `
+#include "main.h"
+
+/**
+ * _abs - Computes absolute value
+ * @n: Parameter
+ * Return: Always 0
+ */
+
+int _abs(int n)
+{
+	if (n < 0)
+		n = -n;
+	return (n);
+}
+9-strcpy.c/     0           0     0     644     222       `
+#include <stdio.h>
+#include <string.h>
+
+/**
+ * *_strcpy - Copy string from src to dest
+ * @dest: String 1
+ * @src: String 2
+ * Return: Char string
+ */
+
+char *_strcpy(char *dest, char *src)
+{
+	return (strcpy(dest, src));
+}
+_putchar.c/     0           0     0     644     166       `
+#include <unistd.h>
+
+/**
+ * _putchar - Static library _putchar
+ * @c: Character variable
+ * Return: Always 0
+ */
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
+main.c/         0           0     0     644     142       `
+#include "main.h"
+
+int main(void)
+{
+	_puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
+	return (0);
+}
