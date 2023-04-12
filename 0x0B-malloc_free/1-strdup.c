@@ -16,12 +16,16 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	s = malloc(sizeof(str) * sizeof(char));
-	while (*str[i] != '\0')
+	while (str[i] != '\0')
 	{
-		*str[i] = *pstr[i];
 		i++;
 	}
-	free(s);
-	return (pstr);
+	s = malloc((i) * sizeof(char));
+	i = 0;
+	while (pstr[i] != '\0')
+	{
+		s[i] = pstr[i];
+		i++;
+	}
+	return (s);
 }
