@@ -4,9 +4,7 @@
 
 /**
  * print_dog - Prints a struct dog
- * @name: Name to initialize
- * @age: Age to initialize
- * @owner: Owner to initialize
+ * @d: Struct tokens
  */
 
 void print_dog(struct dog *d)
@@ -17,7 +15,7 @@ void print_dog(struct dog *d)
 		return;
 	s = d->name == NULL ? "(nil)" : d->name;
 	printf("Name: %s\n", s);
-	printf("Age: %f\n", d->age);	
+	printf("Age: %f\n", d->age);
 	s = d->owner == NULL ? "(nil)" : d->owner;
 	printf("Owner: %s\n", s);
 }
