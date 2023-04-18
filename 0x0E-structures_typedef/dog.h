@@ -9,18 +9,17 @@
  * Description: Read the code
  */
 
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} my_dog;
 
 /**
  * my_dog - Typedef for datatype struct dog
  */
 
-typedef struct dog my_dog;
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 #endif
