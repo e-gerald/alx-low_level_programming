@@ -15,4 +15,12 @@ struct dog
 	float age;
 	char *owner;
 };
+
+/**
+ * my_dog - Typedef for datatype struct dog
+ */
+
+typedef struct dog my_dog;
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif
