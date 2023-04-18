@@ -16,5 +16,15 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-}
+};
+
+/**
+ * my_dog - Typedef for struct dog
+ * @name: Datatype 1
+ * @age: Datatype 2
+ * @owner: Datatype 3
+ * Description: Pointer to my_dog typedef
+ */
+
+typedef struct dog my_dog;
 #endif
