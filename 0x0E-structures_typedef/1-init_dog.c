@@ -7,6 +7,7 @@
  * @name: Datatype 1
  * @age: Datatype 2
  * @owner: Datatype 3
+ * Description: Read the code
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
