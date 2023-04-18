@@ -1,10 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
- * struct dog - Struct data-type
+ * struct dog - Struct datatype
  * @name: Datatype 1
  * @age: Datatype 2
  * @owner: Datatype 3
@@ -17,14 +15,4 @@ struct dog
 	float age;
 	char *owner;
 };
-
-/**
- * my_dog - Typedef for struct dog
- * @name: Datatype 1
- * @age: Datatype 2
- * @owner: Datatype 3
- * Description: Pointer to my_dog typedef
- */
-
-typedef struct dog my_dog;
 #endif
