@@ -4,10 +4,9 @@
 /**
  * init_dog - Initialize a variable of type struct dog
  * @d: pointer to struct dog
- * @name: Datatype 1
- * @age: Datatype 2
- * @owner: Datatype 3
- * Description: Read the code
+ * @name: Datatype 1 to initialize
+ * @age: Datatype 2 to initialize
+ * @owner: Datatype 3 to initialize
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
