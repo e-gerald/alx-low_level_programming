@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 1; i <= num; i++)
 	{
-		if (num % i == 0 && i > 1)
+		if (num % i == 0)
 		{
 			num /= i;
 			if (i > 5000)
